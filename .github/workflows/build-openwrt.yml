@@ -86,6 +86,7 @@ jobs:
 
     - name: make diff_config
       run: |
+       cd /workdir/openwrt
        ./scripts/diffconfig.sh > diff.config
        mv diff.config save/
 
