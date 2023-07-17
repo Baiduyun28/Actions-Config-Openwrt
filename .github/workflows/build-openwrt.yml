@@ -81,8 +81,8 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P2_SH
         mkdir save
 
-#    - name: SSH connection to Actions
-#      uses: P3TERX/ssh2actions@v1.0.0
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
 
     - name: make diff_config
       run: |
