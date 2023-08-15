@@ -107,7 +107,7 @@ jobs:
     - name: Generate release tag
       id: tag
       run: |
-        echo "::set-output name=release_tag::$(date +'%Y.%m.%d-%H%M')"
+        echo "::set-output name=release_tag::$(date +'%Y.%m.%d-%H%M')-Immortalwrt"
         echo $release_tag
 
     - name: Upload firmware to release
